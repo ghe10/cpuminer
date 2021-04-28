@@ -12,6 +12,7 @@ Dependencies:
 		(jansson is included in-tree)
 
 Basic *nix build instructions:
+  brew install openssl make automake zlib curl jansson
 	./autogen.sh	# only needed if building from git repo
 	./nomacro.pl	# in case the assembler doesn't support macros
 	./configure CFLAGS="-O3" # make sure -O3 is an O and not a zero!
